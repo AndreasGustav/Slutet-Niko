@@ -1,0 +1,102 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/6a985aaa-8a95-4382-97a9-91cdf96f43d3-Moraine_Lake_Dennis_Frates_Alamy_Stock_Photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  
+  
+  .video-container {
+    display: grid;
+    grid-template-areas:
+    "header header  header header  header"
+    "videos     .   videos7   .   videos2    "
+    "videos3    .   videos8   .     videos4  "
+    "videos5    .   videos9   .    videos6   "
+    "DownUnder  DownUnder   DownUnder   DownUnder   DownUnder    "
+    ;
+    grid-template-columns: 3fr 1fr 3fr 1fr 3fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    padding: 20px; 
+}
+
+
+.video-container p {
+color: aqua;
+}
+
+    .DownUnder {
+        grid-area: DownUnder;
+        background-color: gray;
+        text-align: left;
+        height: 100%;
+        width: 100%;
+        opacity: 75%;
+    }
+  
+
+  .videos { 
+    text-align: center;
+    grid-area: videos;
+  }
+
+  .videos2 { 
+    text-align: center;
+    grid-area: videos2;
+  }
+
+  .videos3 { 
+    text-align: center;
+    grid-area: videos3;
+  }
+
+  .videos4 { 
+    text-align: center;
+    grid-area: videos4;
+  }
+
+  .videos5 { 
+    text-align: center;
+    grid-area: videos5;
+  }
+
+  .videos6 { 
+    text-align: center;
+    grid-area: videos6;
+  }
+
+  .videos7 { 
+    text-align: center;
+    grid-area: videos7;
+  }
+
+  .videos8 { 
+    text-align: center;
+    grid-area: videos8;
+  }
+
+  .videos9 { 
+    text-align: center;
+    grid-area: videos9;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    color: white;
+  }
+
+.Header1 {
+text-align: center;
+color: aqua;
+}
+
+img {
+    height: 4em;
+}
